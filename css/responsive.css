@@ -1,0 +1,110 @@
+/* mobile responsive start  */
+@media only screen and (min-width:300px) and (max-width:500px){
+header .container{
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.main-logo img {
+    width: 50px;
+    height: 50px;
+}
+.logo-text {
+    padding-top: 0px;
+    text-align: center;
+}
+.main-menu ul li a{
+    padding: 7px;
+    margin: 3px;
+    line-height: 20px;
+}
+/* mobile responsive menu end  */
+
+.inner-containt {
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    justify-content: space-between;
+    background-color:#086608 ;
+}
+.herro-slider-element{
+    height: 250px;
+    object-fit: cover;
+}
+
+.right-icon-box {
+    padding: 0 0 10px 0;
+    
+}
+.icon-box{
+    width: 100%;
+    height: 70px;
+}
+.history-inner-container{
+    display: block;
+}
+.school-history {
+    margin-top: 4px;
+}.history-heading{
+    padding: 5px;
+}
+.login-button-aria button {
+    width: 48%;
+    display: inline-block;
+    margin: 2px;
+    text-align: center;
+}
+.bani-container-inner{
+    flex-direction: column;
+    gap: 0px;
+}
+
+
+
+
+/* footer an copywrite section start  */
+.footer-container-inner{
+    flex-direction: column;
+}
+.maps {
+    width: 100%;
+}
+.maps p iframe {
+    height: 200px;
+}
+.Institution hr {
+    width: 323px;
+}
+.improtent-link hr {
+    width: 295px;
+}
+.address img {
+    width: 100%;
+    height: 143px;
+}
+ul li , ul li a{
+    text-align: center;
+    color: white;
+}
+.copywrite-des {
+    border-right: 5px solid blue;
+}
+.address hr {
+    width: 336px;
+}
+.developer-info {
+    padding: 0px 12px;
+}
+
+/* footer an copywrite section end */
+}
+/* mobile responsive end  */
+/* tablate responsive start  */
+@media only screen and (min-width:700px) and (max-width:1023px){
+    
+}
+/* tablate responsive end */

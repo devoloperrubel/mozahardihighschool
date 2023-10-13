@@ -1,0 +1,178 @@
+
+.heading-result-text>h2{
+    text-align: center;
+    margin: 10px auto
+}
+.inp {
+    font-family: 'Tiro Bangla', serif;
+    font-weight: 500;
+    line-height: 25px;
+    font-size: 20px;
+    border-collapse: collapse;
+    width: 45%;
+    border: 2px solid black;
+    margin: 0 auto;
+
+  }
+  .inp tr td{
+    padding: 10px;
+  }
+  input, select{
+    width: 300px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    }
+    .submit,.reset{
+        width: 20%;
+    }
+
+
+
+    .print, .result-personal-info, .mark-sheet{
+        display: none;
+    }
+
+
+
+    .result-personal-info{
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+    .full-info{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 5px;
+    }
+    .photo>img{
+        aspect-ratio: 3.5/4.5;
+    }
+    .text{
+        width: 100%;
+    }
+    .info-table{
+        font-family: 'Tiro Bangla', serif;
+        font-weight: 500;
+        line-height: 18px;
+        font-size: 15px;
+        border-collapse: collapse;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .info-table tr td {
+        border: 1px solid #706969;
+        text-align: left;
+        padding: 6px;
+      }
+      
+      .info-table tr:nth-child(even) {
+        background-color:#dddddd;
+        
+      }
+      .info-table tr td:nth-child(even){
+        width: 35%;
+        
+      }
+      .info-table tr td:nth-child(odd){
+        width: 15%;
+      }
+
+
+
+      .mark-table{
+        font-family: 'Tiro Bangla', serif;
+        font-weight: 500;
+        line-height: 22px;
+        font-size: 20px;
+        border-collapse: collapse;
+        width: 100%;
+        margin: 0 auto;
+      }
+      th{
+        background-color: var(--brand-color);
+        color: var(--white-color);
+      }
+      .mark-table tr td, th {
+        border: 1px solid #706969;
+        text-align: left;
+        padding: 6px;
+      }
+      .mark-table tr:nth-child(even) {
+        background-color:#dddddd;
+        
+      }
+      .mark-table tr td:first-child{
+        width: 50%;
+      }
+
+      .print>button{
+        margin-top: 10px;
+        padding: 10px 15px;
+        text-align: right;
+        background-color: var(--brand-color);
+        color: var(--white-color);
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+}
+
+
+
+
+
+
+    @media only screen and (min-width:300px) and (max-width:500px){
+        table{
+            width: 100%;
+        }
+        input, select{
+            width: 210px;
+        }
+        .submit{
+            width: 30%;
+        }
+    
+    }
+
+   
+
+      @media print and (color) {
+        * {
+           -webkit-print-color-adjust: exact;
+           print-color-adjust: exact;
+        }
+     
+        .main-menu{
+          display: none;
+        }
+        .logo{
+          margin: 0 auto;
+        }
+        .result-input-aria{
+            display: none;
+        }
+
+        button{
+          display: none;
+        }
+        footer{
+          display: none;
+        }
+        .result-input-sectio{
+          display: none;
+        }
+        .info-table tr td:nth-child(odd) {
+          width: 20%;
+      }
+      .info-table tr td:nth-child(even) {
+        width: 30%;
+      }
+    }

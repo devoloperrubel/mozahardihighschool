@@ -1,0 +1,41 @@
+/* bangla font link is  */
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@400;600;700&family=Tiro+Bangla&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+:root{
+    --brand-color:rgb(8, 102, 8);
+    --hover-color-one:red;
+    --white-color:white;
+    --second-background-color:#E8E6CF;
+}
+.container{
+    max-width: clamp(1024px,80%,1920px);
+    margin: 0 auto;
+}
+.bf{
+    font-family: 'Tiro Bangla', serif;
+} 
+.bf-hd {
+    font-family: 'Tiro Bangla', serif;
+    font-weight: 700;
+    line-height: 25px;
+    font-size: 25px;
+}
+.bf-p {
+    font-family: 'Tiro Bangla', serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+}
+.h2d{
+    text-align: center;
+    background-color: var(--brand-color);
+    padding: 5px;
+    color: var(--white-color);
+}

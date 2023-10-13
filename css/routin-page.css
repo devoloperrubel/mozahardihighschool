@@ -1,0 +1,12 @@
+.routine-heading h1{
+    background-color: var(--brand-color);
+    color: var(--white-color);
+    text-align: center;
+    padding: 5px;
+}
+
+.routin-herro-aria h2{
+    text-align: center;
+    margin-top: 20px;
+    color: red;
+}

@@ -65,7 +65,7 @@ $('.teacher-single-img').slick({
       }
     },
     {
-      breakpoint: 300,
+      breakpoint: 500,
       settings: {
         slidesToShow: 2,
         slidesToScroll: 1
